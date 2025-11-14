@@ -1,0 +1,397 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 65459 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+E:/2021.3.26f1/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60962
+Successfully changed project path to: E:/2021.3.26f1/My project
+E:/2021.3.26f1/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10372] Host "[IP] 192.168.50.223 [Port] 0 [Flags] 2 [Guid] 3611871517 [EditorId] 3611871517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87F7RDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10372] Host "[IP] 192.168.50.223 [Port] 0 [Flags] 2 [Guid] 3611871517 [EditorId] 3611871517 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-87F7RDR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 93.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/2021.3.26f1/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16337 MB
+    Driver:   32.0.21025.10016
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007403 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.701 seconds
+Domain Reload Profiling:
+	ReloadAssembly (702ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (460ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004581 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\2021.3.26f1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\2021.3.26f1\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5787 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (0.8 MB). Loaded Objects now: 6243.
+Memory consumption went from 230.7 MB to 229.9 MB.
+Total: 3.489900 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.282900 ms MarkObjects: 2.544700 ms  DeleteObjects: 0.287300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49028.651123 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_38.asset
+  artifactKey: Guid(0ad0c012081b0bb429994d30693f260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_38.asset using Guid(0ad0c012081b0bb429994d30693f260f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93c9576016a8a8e4b3385357663dd14') in 0.067599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_40.asset
+  artifactKey: Guid(34671419c1ee0e24bbba63be32d63980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_40.asset using Guid(34671419c1ee0e24bbba63be32d63980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b5f77f5b223795e06a4332e3bc3385') in 0.011397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_57.asset
+  artifactKey: Guid(153c0e9c5bea4f042b0502b18696158f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_57.asset using Guid(153c0e9c5bea4f042b0502b18696158f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c696e90b7118df42dec8030cc461af9b') in 0.013200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_54.asset
+  artifactKey: Guid(1b6f7e78482e68d42bfb3959f42a875d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_54.asset using Guid(1b6f7e78482e68d42bfb3959f42a875d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97d6fc72518953b543dbbaf40709ca6') in 0.012443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_52.asset
+  artifactKey: Guid(671de1d6316a2b34a91ebcd1120acd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_52.asset using Guid(671de1d6316a2b34a91ebcd1120acd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759436ef28927097585617d66872e810') in 0.010301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.348032 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_181.asset
+  artifactKey: Guid(e0299d0dedcf5984cbe2ad2ce11b5d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_181.asset using Guid(e0299d0dedcf5984cbe2ad2ce11b5d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ac1834044619be5fced232f4330278') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_184.asset
+  artifactKey: Guid(1f38cc7c5a746d1419e15b3806d9405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_184.asset using Guid(1f38cc7c5a746d1419e15b3806d9405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9682824bf77b3767c23c9af14c2bcc') in 0.013891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_190.asset
+  artifactKey: Guid(81c3d548f03642b4899b1b61911c10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_190.asset using Guid(81c3d548f03642b4899b1b61911c10cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99785098b6f34ac23db4d73778914f62') in 0.013969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_188.asset
+  artifactKey: Guid(d9ad939703248664bb08ce6cc6566dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_188.asset using Guid(d9ad939703248664bb08ce6cc6566dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd551696117473a1c237c28d8350c04') in 0.009907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.127609 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_169.asset
+  artifactKey: Guid(8d271bb26c307e947a54de9c56a2ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_169.asset using Guid(8d271bb26c307e947a54de9c56a2ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c439b3a36b27129f02a672e084d5260') in 0.011878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_173.asset
+  artifactKey: Guid(2b7b8e6d74b912f41a2800dc4cb5e466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_173.asset using Guid(2b7b8e6d74b912f41a2800dc4cb5e466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bdb72cabdde7cbccdc2e766473221d') in 0.011335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_177.asset
+  artifactKey: Guid(16e48c82a38e41b479185b3c085e18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_177.asset using Guid(16e48c82a38e41b479185b3c085e18bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d1f3f6abde3b97e7a6f589b89f367b') in 0.011296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125768 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_157.asset
+  artifactKey: Guid(6bc20b2934338d544b3fc8868de0ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_157.asset using Guid(6bc20b2934338d544b3fc8868de0ab19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131fba743eefedbe40da1553ccafef16') in 0.011242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_164.asset
+  artifactKey: Guid(5e4cb4e9421ae954aa7b0d4d08fba652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_164.asset using Guid(5e4cb4e9421ae954aa7b0d4d08fba652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c801c43a7355df55e86c5eb85717ed7') in 0.012167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_165.asset
+  artifactKey: Guid(cd1b36d18fd80024eb3fecd939245ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_165.asset using Guid(cd1b36d18fd80024eb3fecd939245ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38824cabd63c3de76d8ad57264920fd') in 0.011489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.318930 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_145.asset
+  artifactKey: Guid(038759e9657d75c4db0637b2b2f1d329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_145.asset using Guid(038759e9657d75c4db0637b2b2f1d329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afafbfa615d946a49da8de233bdc421a') in 0.011997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_149.asset
+  artifactKey: Guid(85caad5616fb8f94fb3c830064f4b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_149.asset using Guid(85caad5616fb8f94fb3c830064f4b2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a52211df1fa543f72d9159743aa9590') in 0.013684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_146.asset
+  artifactKey: Guid(afe7a8d9e8904ca4e8d4affec74e81af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_146.asset using Guid(afe7a8d9e8904ca4e8d4affec74e81af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3ad70f573ebc5fb1a434520fcf915a') in 0.012415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_133.asset
+  artifactKey: Guid(235da2577abba0940a9ce9683014fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_133.asset using Guid(235da2577abba0940a9ce9683014fecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe930af8c5baef7105bb6efc99eeae72') in 0.011077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_137.asset
+  artifactKey: Guid(80b8f0af072dc844484a34e79069fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_137.asset using Guid(80b8f0af072dc844484a34e79069fe93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9272d97e4bd71d973439138dc472ddd') in 0.012948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_134.asset
+  artifactKey: Guid(e78f955543eebd445a07d0b7b539599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_134.asset using Guid(e78f955543eebd445a07d0b7b539599a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a3a231f04a177c95896d17a82abc5b') in 0.011824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_129.asset
+  artifactKey: Guid(5d8c4b17f812ceb4e9871f7847ca4cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_129.asset using Guid(5d8c4b17f812ceb4e9871f7847ca4cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90c8dfdc85f4976697e40cc42ebd9ab') in 0.012306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_128.asset
+  artifactKey: Guid(28d26a2849314104883a7cf37a089ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_128.asset using Guid(28d26a2849314104883a7cf37a089ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5663d8152908b2f4eb2c59765af60572') in 0.011776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_121.asset
+  artifactKey: Guid(8546e44edf533884b8b09bf825a5d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_121.asset using Guid(8546e44edf533884b8b09bf825a5d1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16082f779af8ac0b3403e864679bdc39') in 0.012325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.160617 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_109.asset
+  artifactKey: Guid(fe4d82c6b06c03544883d0e59a63ca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_109.asset using Guid(fe4d82c6b06c03544883d0e59a63ca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ba3638f306a2d417dc0475ca7da2da') in 0.011740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_111.asset
+  artifactKey: Guid(964cefdd7fd176945a63ac8e1f829d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_111.asset using Guid(964cefdd7fd176945a63ac8e1f829d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13699c1eb2e121bb1d9251ae66f42a56') in 0.011363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_117.asset
+  artifactKey: Guid(e99bd6af570fe0f45bce74379e4fdc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_117.asset using Guid(e99bd6af570fe0f45bce74379e4fdc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedf3f359882d3ae61d273052f4c1ec9') in 0.011344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_94.asset
+  artifactKey: Guid(83c45d7f2a1625b45914cbc0ea0be35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_94.asset using Guid(83c45d7f2a1625b45914cbc0ea0be35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6327ec29df9f234f464a36c0de69a8d') in 0.012169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_99.asset
+  artifactKey: Guid(12d6846e0ad65eb4dbd3a110fddd1950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_99.asset using Guid(12d6846e0ad65eb4dbd3a110fddd1950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40632705ccede61e1052f5a543815d87') in 0.012543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_98.asset
+  artifactKey: Guid(4d27b66ac48258d42b9019228dae0e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_98.asset using Guid(4d27b66ac48258d42b9019228dae0e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496f89b9fa2b43fb1a0f8690095c3c41') in 0.010910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.189474 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_85.asset
+  artifactKey: Guid(d65fcc494a3ade54c9452815f550a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_85.asset using Guid(d65fcc494a3ade54c9452815f550a922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9a7a36e5684aa0ff46899d76558b32') in 0.012713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_90.asset
+  artifactKey: Guid(a24c9aaf708b173418311c768b12bc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_90.asset using Guid(a24c9aaf708b173418311c768b12bc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953387a6cda1d3a49e515ebc21312bbd') in 0.010772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_73.asset
+  artifactKey: Guid(3881b78256ab7fe4ebe9043861c9c2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_73.asset using Guid(3881b78256ab7fe4ebe9043861c9c2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0261175f531266e4ce7db37788dbad8c') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_81.asset
+  artifactKey: Guid(b1bac2660d632234e815a7ef258782e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_81.asset using Guid(b1bac2660d632234e815a7ef258782e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ce14693419d44842e08da0d3487cfa') in 0.011442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_91.asset
+  artifactKey: Guid(9563063d2097bf5499941dcfce316f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_91.asset using Guid(9563063d2097bf5499941dcfce316f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e04332f4f86f782cd801aaeb9986df') in 0.011152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_89.asset
+  artifactKey: Guid(32588b91b2f6c0c4489de68870836f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_89.asset using Guid(32588b91b2f6c0c4489de68870836f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bc4431c0e410156a9cfeeb471e53ba') in 0.012285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174685 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_62.asset
+  artifactKey: Guid(be501ef110e614247a158290c8c3b3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_62.asset using Guid(be501ef110e614247a158290c8c3b3b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326ad72aafacfefe0ec6bd1202517b1d') in 0.011207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_69.asset
+  artifactKey: Guid(7097a862301806e46aa11c15b441e19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_69.asset using Guid(7097a862301806e46aa11c15b441e19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce63654b86bc07b1aa768fe25fa1cea1') in 0.010933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_67.asset
+  artifactKey: Guid(15df926cb2d1621489caf02655c40367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pocket Zone 2(ресурсы)-20251111T125649Z-1-001/Pocket Zone 2(ресурсы)/tilemap/celianna_TileA2_67.asset using Guid(15df926cb2d1621489caf02655c40367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557559eaee1ceae87d2ca658b18ee50a') in 0.010448 seconds 
